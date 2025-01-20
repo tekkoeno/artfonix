@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/artfonix/static/css/main.62d643a3.css",
-    "main.js": "/artfonix/static/js/main.c9174301.js",
+    "main.css": "/artfonix/static/css/main.f06b0684.css",
+    "main.js": "/artfonix/static/js/main.f7d2c352.js",
     "static/media/review-user-2.svg": "/artfonix/static/media/review-user-2.8183a4fae4c76499ecc7fc2f268e7df6.svg",
     "static/media/review-user.svg": "/artfonix/static/media/review-user.e8ad0e68fa0f6839d877438a43dc94e1.svg",
     "static/media/musician.svg": "/artfonix/static/media/musician.3b584f4ed1307eb4fbbb28d73b4afd6c.svg",
@@ -62,11 +62,11 @@
     "static/media/play-btn.svg": "/artfonix/static/media/play-btn.01502db2bcc28b960ee6fd79eb59a3e4.svg",
     "static/media/arrow-select.svg": "/artfonix/static/media/arrow-select.fd204bfb2b6adad791cd66c57de72bd6.svg",
     "static/media/futura_pt_medium.woff": "/artfonix/static/media/futura_pt_medium.31d6cfe0d16ae931b73c.woff",
-    "main.62d643a3.css.map": "/artfonix/static/css/main.62d643a3.css.map",
-    "main.c9174301.js.map": "/artfonix/static/js/main.c9174301.js.map"
+    "main.f06b0684.css.map": "/artfonix/static/css/main.f06b0684.css.map",
+    "main.f7d2c352.js.map": "/artfonix/static/js/main.f7d2c352.js.map"
   },
   "entrypoints": [
-    "static/css/main.62d643a3.css",
-    "static/js/main.c9174301.js"
+    "static/css/main.f06b0684.css",
+    "static/js/main.f7d2c352.js"
   ]
 }
