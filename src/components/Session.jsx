@@ -1,5 +1,7 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import sessionImg from '../assets/img/session-img.png';
+import Socials from './Socials';
 const Session = () => {
   return (
     <section className="session">
@@ -27,7 +29,9 @@ const Session = () => {
                 </div>
                 <div className="session__info-buy">
                   <p className="session__info-price">От 5 000 руб.</p>
-                  <button className="session__info-btn">КУПИТЬ БИЛЕТ</button>
+                  <Link to="/thanks">
+                    <button className="session__info-btn">КУПИТЬ БИЛЕТ</button>
+                  </Link>
                 </div>
               </div>
             </div>

@@ -13,13 +13,13 @@ const Socials = () => {
               А так же следите за нами <br />в социальных сетях:
             </h2>
             <div class="socials__icons-wrap">
-              <a href="#">
+              <a href="https://web.telegram.org/">
                 <img src={telegramIcon} alt="social" />
               </a>
-              <a href="#">
+              <a href="https://www.whatsapp.com/?lang=ru_RU">
                 <img src={vkIcon} alt="social" />
               </a>
-              <a href="#">
+              <a target="_blank" href="https://www.whatsapp.com/?lang=ru_RU">
                 <img src={whatsappIcon} alt="social" />
               </a>
             </div>

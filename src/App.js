@@ -17,6 +17,7 @@ import SelectLocationModal from './components/SelectLocationModal';
 import About from './pages/About';
 import Layerone from './pages/Layerone';
 import ScrollDefault from './hooks/ScrollDefault';
+import Thanks from './pages/Thanks';
 
 function App() {
   const [premiers, setPremiers] = useState([]);
@@ -149,7 +150,7 @@ function App() {
   }, [selectedCountry]);
   return (
     <div onClickCapture={handleClickOutside}>
-      <BrowserRouter>
+      <BrowserRouter basename="/artfonix">
         <HeaderMenu
           selectedCountry={selectedCountry}
           onClickSelectLocation={onClickSelectLocation}
@@ -173,6 +174,7 @@ function App() {
           <Route path="/about_events" element={<AboutEvents />} />
           <Route path="/about" element={<About />} />
           <Route path="/event/:id" element={<Layerone />} />
+          <Route path="/thanks" element={<Thanks />} />
         </Routes>
       </BrowserRouter>
 

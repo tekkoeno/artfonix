@@ -14,20 +14,20 @@ import { useEffect } from 'react';
 const Shows = () => {
   const shows = [
     {
-      name: 'Времена года',
-      url: 'https://www.youtube.com/watch?v=1h-N0Tv8zxM',
+      name: 'One of the girl',
+      url: 'https://www.youtube.com/watch?v=0nKkToSQSZc',
     },
     {
-      name: 'Времена года',
-      url: 'https://www.youtube.com/watch?v=1h-N0Tv8zxM',
+      name: 'Angel 0%',
+      url: 'https://www.youtube.com/watch?v=gIRGiL2S78k',
     },
     {
-      name: 'Времена года',
-      url: 'https://www.youtube.com/watch?v=1h-N0Tv8zxM',
+      name: 'Love story',
+      url: 'https://www.youtube.com/watch?v=X678mm9LNZE',
     },
     {
-      name: 'Времена года',
-      url: 'https://www.youtube.com/watch?v=1h-N0Tv8zxM',
+      name: 'Mark Ronson - Uptown Funk',
+      url: 'https://www.youtube.com/watch?v=OPf0YbXqDm0',
     },
     {
       name: 'Времена года',

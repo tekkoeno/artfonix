@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const OtherSession = () => {
   return (
@@ -24,7 +25,9 @@ const OtherSession = () => {
 
             <p className="session__item-location">Барвиха Luxury Village</p>
             <p className="session__item-price">от 5000 руб.</p>
-            <button className="session__item-btn">Купить билеты</button>
+            <Link to="/thanks">
+              <button className="session__item-btn">Купить билеты</button>
+            </Link>
           </div>
           <div className="other__session-item">
             <div className="other__session-info--mobile">
@@ -44,7 +47,9 @@ const OtherSession = () => {
 
             <p className="session__item-location">Барвиха Luxury Village</p>
             <p className="session__item-price">от 5000 руб.</p>
-            <button className="session__item-btn">Купить билеты</button>
+            <Link to="/thanks">
+              <button className="session__item-btn">Купить билеты</button>
+            </Link>
           </div>
           <div className="other__session-item">
             <div className="other__session-info--mobile">
